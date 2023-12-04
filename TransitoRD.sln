@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransitoRD", "TransitoRD\TransitoRD.csproj", "{1F6502F5-14CA-4DB8-BFFF-898AAF69575D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{95CDF017-65FB-4A60-93AE-88AB5D4043BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{1583430E-1B92-41E3-B7C8-1A22F14F380A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{90C01C05-BC98-4F05-A99F-11A95DB214B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{BE5E2B8E-2F8D-4EC1-A4FC-9050C2A292DA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransitoRD.Core.Application", "TransitoRD.Core.Application\TransitoRD.Core.Application.csproj", "{C73D7BB9-0A1E-4319-833E-1B5E736488B8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransitoRD.Core.Domain", "TransitoRD.Core.Domain\TransitoRD.Core.Domain.csproj", "{6493A878-D9C7-46DD-A67D-F0A4FF3C0E3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransitoRD.Infrastucture.Persistence", "TransitoRD.Infrastucture.Persistence\TransitoRD.Infrastucture.Persistence.csproj", "{E6E2FA67-7528-4160-9E90-F26195C6CC19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F6502F5-14CA-4DB8-BFFF-898AAF69575D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F6502F5-14CA-4DB8-BFFF-898AAF69575D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F6502F5-14CA-4DB8-BFFF-898AAF69575D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F6502F5-14CA-4DB8-BFFF-898AAF69575D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C73D7BB9-0A1E-4319-833E-1B5E736488B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C73D7BB9-0A1E-4319-833E-1B5E736488B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C73D7BB9-0A1E-4319-833E-1B5E736488B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C73D7BB9-0A1E-4319-833E-1B5E736488B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6493A878-D9C7-46DD-A67D-F0A4FF3C0E3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6493A878-D9C7-46DD-A67D-F0A4FF3C0E3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6493A878-D9C7-46DD-A67D-F0A4FF3C0E3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6493A878-D9C7-46DD-A67D-F0A4FF3C0E3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6E2FA67-7528-4160-9E90-F26195C6CC19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6E2FA67-7528-4160-9E90-F26195C6CC19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6E2FA67-7528-4160-9E90-F26195C6CC19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6E2FA67-7528-4160-9E90-F26195C6CC19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1F6502F5-14CA-4DB8-BFFF-898AAF69575D} = {BE5E2B8E-2F8D-4EC1-A4FC-9050C2A292DA}
+		{1583430E-1B92-41E3-B7C8-1A22F14F380A} = {95CDF017-65FB-4A60-93AE-88AB5D4043BD}
+		{90C01C05-BC98-4F05-A99F-11A95DB214B7} = {95CDF017-65FB-4A60-93AE-88AB5D4043BD}
+		{BE5E2B8E-2F8D-4EC1-A4FC-9050C2A292DA} = {95CDF017-65FB-4A60-93AE-88AB5D4043BD}
+		{C73D7BB9-0A1E-4319-833E-1B5E736488B8} = {1583430E-1B92-41E3-B7C8-1A22F14F380A}
+		{6493A878-D9C7-46DD-A67D-F0A4FF3C0E3B} = {1583430E-1B92-41E3-B7C8-1A22F14F380A}
+		{E6E2FA67-7528-4160-9E90-F26195C6CC19} = {90C01C05-BC98-4F05-A99F-11A95DB214B7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8D5AA6D-7C35-422C-8B1B-BDCBB9721E9C}
+	EndGlobalSection
+EndGlobal
