@@ -10,7 +10,7 @@ namespace TransitoRD.Core.Domain.Entities
 {
     public class MultasTipo : AuditableBaseEntity
     {
-        public int CodigoMulta { get; set; }
+        //public int CodigoMulta { get; set; }
 
         public String descripcion { get; set; }
 

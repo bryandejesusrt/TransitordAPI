@@ -123,10 +123,6 @@ namespace TransitoRD.Infrastucture.Persistence.Contexts
            
 
             modelBuilder.Entity<MultasTipo>().
-             Property(c => c.CodigoMulta)
-             .IsRequired();
-
-            modelBuilder.Entity<MultasTipo>().
             Property(c => c.descripcion)
             .IsRequired();
             #endregion

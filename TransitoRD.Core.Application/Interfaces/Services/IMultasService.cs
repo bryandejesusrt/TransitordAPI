@@ -11,7 +11,9 @@ namespace TransitoRD.Core.Application.Interfaces.Services
 {
         public interface IMultasService : IGenericService<RequestMultasDto, ResponseMultasDto, Multas>
         {
-
-        }
+         Task<List<ResponseMultasDto>> Getmultasbyagente(int id);
     }
+
+       
+}
 

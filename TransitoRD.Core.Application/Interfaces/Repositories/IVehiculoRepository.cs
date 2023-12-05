@@ -9,6 +9,6 @@ namespace TransitoRD.Core.Application.Interfaces.Repositories
 {
     public interface IVehiculoRepository : IGenericRepository<Vehiculos>
     {
-
+        Task<Vehiculos> GetByPlacaAsync(string placa);
     }
 }

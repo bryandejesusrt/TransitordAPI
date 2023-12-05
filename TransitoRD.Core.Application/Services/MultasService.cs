@@ -25,6 +25,11 @@ namespace TransitoRD.Core.Application.Services
             _imultasRepository = imultasRepository;
         }
 
-       
+        public async Task<List<ResponseMultasDto>> Getmultasbyagente(int id)
+        {
+            var userList = await _imultasRepository.GetbyAgeneteIdAsync(id);
+            return _mapper.Map<List<ResponseMultasDto>>(userList);
+
+        }
     }
 }

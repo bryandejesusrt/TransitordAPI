@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,7 +19,12 @@ namespace TransitoRD.Infrastucture.Persistence.Repositories
             _dbContext = dbContext;
         }
 
+        public virtual async Task<Vehiculos> GetByPlacaAsync(string placa)
+        {
+            var res = await _dbContext.Set<Vehiculos>().ToListAsync();
 
-
+            return res.FirstOrDefault(x => x.Placa == placa) ?? null;
+        }
+                
     }
 }

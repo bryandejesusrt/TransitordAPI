@@ -9,6 +9,6 @@ namespace TransitoRD.Core.Application.Interfaces.Repositories
 {
     public interface IMultasRepository : IGenericRepository<Multas>
     {
-
+        Task<List<Multas>> GetbyAgeneteIdAsync(int id);
     }
 }

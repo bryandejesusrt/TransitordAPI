@@ -32,5 +32,9 @@ namespace TransitoRD.Core.Domain.Entities
         public Agentes? Agente { get; set; }
         public Licencia? Licencia { get; set; }
 
+        public static implicit operator Multas(List<Multas> v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

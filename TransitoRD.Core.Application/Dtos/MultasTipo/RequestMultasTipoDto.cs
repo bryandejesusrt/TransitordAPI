@@ -8,7 +8,7 @@ namespace TransitoRD.Core.Application.Dtos.MultasTipo
 {
     public class RequestMultasTipoDto
     {
-        public int CodigoMulta { get; set; }
+       // public int CodigoMulta { get; set; }
 
         public String descripcion { get; set; }
     }

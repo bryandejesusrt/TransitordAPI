@@ -13,6 +13,6 @@ namespace TransitoRD.Core.Application.Dtos.Agentes
         public String cedula { get; set; }
         public bool estatus { get; set; }
         public String usuario { get; set; }
-       // public String clave { get; set; }
+        public String clave { get; set; }
     }
 }

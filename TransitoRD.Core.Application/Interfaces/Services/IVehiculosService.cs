@@ -13,7 +13,8 @@ namespace TransitoRD.Core.Application.Interfaces.Services
 {
         public interface IVehiculosService : IGenericService<RequestVehiculoDto, ResponseVehiculoDto, Vehiculos>
         {
+        Task<ResponseVehiculoDto> GetByplacaRequest(string id);
 
-        }
+    }
     }
 

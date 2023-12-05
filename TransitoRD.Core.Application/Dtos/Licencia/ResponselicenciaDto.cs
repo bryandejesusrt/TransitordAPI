@@ -15,7 +15,7 @@ namespace TransitoRD.Core.Application.Dtos.Licencia
         public string Fecha_Nacimiento { get; set; }
         public string Direccion { get; set; }
         public string Telefono { get; set; }
-        public bool estatus { get; set; }
+       // public bool estatus { get; set; }
         public bool HasError { get; set; }
         public string? Error { get; set; }
 

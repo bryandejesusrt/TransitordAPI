@@ -25,7 +25,16 @@ namespace TransitoRD.Core.Application.Services
             _ivehiculoRepository = ivehiculoRepository;
         }
 
-        
+        public async Task<ResponseVehiculoDto> GetByplacaRequest(string id)
+        {
+            Vehiculos user = await _ivehiculoRepository.GetByPlacaAsync(id);
 
+            ResponseVehiculoDto vm = _mapper.Map<ResponseVehiculoDto>(user);
+
+
+            return vm;
+        }
+
+       
     }
 }
